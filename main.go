@@ -5,14 +5,17 @@ import (
 	"go_tutorial/constant"
 	"go_tutorial/defers"
 	"go_tutorial/functions"
+	"go_tutorial/goroutine"
 	"go_tutorial/inherit"
 	"go_tutorial/interfaceType"
+	"go_tutorial/jsonType"
 	mylib "go_tutorial/lib1" // 别名
 	_ "go_tutorial/lib2"     // 匿名倒入
 	"go_tutorial/mapType"
 	"go_tutorial/pairType"
 	"go_tutorial/pointers"
 	"go_tutorial/polymorphism"
+	"go_tutorial/reflectType"
 	"go_tutorial/slice"
 	"go_tutorial/structType"
 	"go_tutorial/variable"
@@ -34,4 +37,7 @@ func main() {
 	polymorphism.TestPolymorphism()
 	interfaceType.TestInterFace()
 	pairType.TestPairType()
+	reflectType.TestRelect()
+	jsonType.TestJson()
+	goroutine.TestGoroutine()
 }
