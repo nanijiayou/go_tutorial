@@ -1,6 +1,7 @@
 package main
 
 import (
+	"go_tutorial/channel"
 	"go_tutorial/classType"
 	"go_tutorial/constant"
 	"go_tutorial/defers"
@@ -40,4 +41,5 @@ func main() {
 	reflectType.TestRelect()
 	jsonType.TestJson()
 	goroutine.TestGoroutine()
+	channel.TestChan()
 }

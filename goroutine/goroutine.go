@@ -27,12 +27,12 @@ func TestGoroutine() {
 		fmt.Println("A called")
 	}()
 
-	go newWork()
+	// go newWork()
 
-	i := 0
-	for {
-		i++
-		fmt.Printf("main goroutine i = %d\n", i)
-		time.Sleep(1 * time.Second)
-	}
+	// i := 0
+	// for {
+	// 	i++
+	// 	fmt.Printf("main goroutine i = %d\n", i)
+	// 	time.Sleep(1 * time.Second)
+	// }
 }
