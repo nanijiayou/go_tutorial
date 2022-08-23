@@ -37,4 +37,5 @@ func NewMysql(conf DBConfig) (*sql.DB, error) {
 }
 
 func TestGorm() {
+	fmt.Println("============= gorm ===============")
 }
